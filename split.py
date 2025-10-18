@@ -3,6 +3,10 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 from git import Repo
 
+# Start-Process wt.exe -ArgumentList 'split-pane -V powershell -NoExit -Command "echo cat" ; split-pane -H powershell -NoExit -Command "echo bat" ; split-pane powershell -NoExit -Command "echo rat"'
+# Start-Process wt.exe -ArgumentList 'powershell -NoExit -Command "Start-Process notepad"; split-pane -V powershell -NoExit -Command "ping 127.0.0.1 -t"; split-pane -H powershell -NoExit -Command "calc.exe"'
+
+
 class GitSplitUI:
     def __init__(self, root):
         self.root = root
